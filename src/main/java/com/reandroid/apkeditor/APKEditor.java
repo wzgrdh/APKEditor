@@ -30,7 +30,7 @@ public class APKEditor {
         return getProperties().getProperty("app.description", "---");
     }
     public static String getRepo(){
-        return getProperties().getProperty("app.repo", "https://github.com/REAndroid");
+        return getProperties().getProperty("app.repo", "");
     }
     public static String getName(){
         return getProperties().getProperty("app.name", "---");
